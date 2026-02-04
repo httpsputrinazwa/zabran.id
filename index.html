@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PT Zabran Internasional Grup - Empowering People Through Innovative Technology for Better Lifestyle">
+    <title>PT Zabran Internasional Grup | Technology & Lifestyle</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-loader">
+                <span class="letter">Z</span>
+                <span class="letter gold">A</span>
+                <span class="letter">B</span>
+                <span class="letter">R</span>
+                <span class="letter gold">A</span>
+                <span class="letter">N</span>
+            </div>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="assets/images/logo/logo.png" alt="Zabran International Grup" class="logo-image">
+                </div>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                    <li><a href="#bisnis" class="nav-link">Unit Bisnis</a></li>
+                    <li><a href="#program" class="nav-link">Program</a></li>
+                    <li><a href="#berita" class="nav-link">Berita dan Event</a></li>
+                    <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                    <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                            <span class="material-symbols-outlined">dark_mode</span>
+                        </button></li>
+                </ul>
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-pattern"></div>
+        </div>
+
+        <div class="hero-slider">
+            <!-- Slide 1: Main Branding (Image) -->
+            <div class="slide active">
+                <div class="hero-slider-image-container"
+                    style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                    <img src="assets/images/slider/slider1.jpg" alt="PT Zabran Internasional Grup"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider-controls" style="display: none;">
+            <div class="container">
+                <div class="slider-dots">
+                    <button class="dot active" aria-label="Slide 1"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="material-symbols-outlined">keyboard_arrow_down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <img src="assets/images/fotbar.jpeg" alt="Zabran Team">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <div class="badge-number">10+</div>
+                        <div class="badge-text">Tahun<br>Berkembang</div>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <div class="section-label">Tentang Kami</div>
+                    <h2 class="section-title">
+                        Membangun Masa Depan<br>
+                        <span class="gold">Bersama Teknologi</span>
+                    </h2>
+                    <div class="divider"></div>
+
+                    <p class="about-text">
+                        <strong>PT Zabran International Grup</strong> adalah holding company dinamis yang bergerak di
+                        berbagai sektor untuk menghadirkan solusi teknologi, fashion, dan leadership yang berdampak
+                        positif bagi kehidupan masyarakat.
+                    </p>
+
+                    <p class="about-text">
+                        Kami berkomitmen menghadirkan teknologi yang bermanfaat, barang berkualitas, serta program
+                        pengembangan kepemimpinan untuk mendukung masyarakat Indonesia mencapai kehidupan yang lebih
+                        baik.
+                    </p>
+
+                    <a href="#bisnis" class="btn btn-primary-outline">
+                        Lihat Unit Bisnis
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="vision-mission" data-aos="fade-up">
+                <div class="vm-item">
+                    <h4><span class="material-symbols-outlined">visibility</span> Visi</h4>
+                    <p><em>"To become a trusted technology company that delivers innovative and sustainable solutions,
+                            driving progress in education and the business world."</em></p>
+                    <p>Menjadi perusahaan teknologi terpercaya yang menghadirkan solusi inovatif dan
+                        berkelanjutan untuk mendorong kemajuan dunia pendidikan dan dunia usaha.</p>
+                </div>
+                <div class="vm-item">
+                    <h4><span class="material-symbols-outlined">flag</span> Misi</h4>
+                    <p><em>"To deliver high-quality, secure, and innovative technology products and services, powered by
+                            a professional and caring team committed to customer satisfaction and success."</em></p>
+                    <p>Menyediakan produk dan layanan teknologi berkualitas tinggi yang aman, nyaman, dan
+                        inovatif, dengan dukungan tim profesional yang peduli dan berfokus pada kepuasan serta
+                        keberhasilan pelanggan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Nilai Perusahaan</div>
+                <h2 class="section-title">
+                    Core Value<br>
+                    <span class="gold">SAPPHIRE</span>
+                </h2>
+                <p class="section-description">
+                    Kata SAPPHIRE sendiri berarti batu permata berharga — melambangkan keteguhan, nilai tinggi, dan
+                    kejernihan visi
+                </p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="value-letter">S</div>
+                    <h3><span class="gold">S</span>trength</h3>
+                    <p>Pantang menyerah, selalu bersemangat, memiliki ketangguhan fisik, mental dan spiritual serta kuat
+                        menghadapi tantangan.</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="value-letter">A</div>
+                    <h3><span class="gold">A</span>gile</h3>
+                    <p>Mampu beradaptasi cepat / fleksibel terhadap perubahan situasi dan teknologi (expert lincah dan
+                        cekatan dalam bergerak).</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="value-letter">P</div>
+                    <h3><span class="gold">P</span>rofessional</h3>
+                    <p>Berusaha menjaga etika, kesopanan, dan menjunjung tinggi budaya kejujuran, mikro talang, mikro
+                        rasa & berkerja kasih.</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="value-letter">P</div>
+                    <h3><span class="gold">P</span>erformance</h3>
+                    <p>Fokus pada hasil yang berkualitas, cepat dan kontribusi yang nyata.</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-letter">H</div>
+                    <h3><span class="gold">H</span>ealth</h3>
+                    <p>Menjaga keseimbangan fisik, mental, dan lingkungan kerja yang sehat.</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="value-letter">I</div>
+                    <h3><span class="gold">I</span>nnovation</h3>
+                    <p>Memiliki Semangat belajar yang tinggi, siap menciptakan nilai baru, ide, pengembangan & perbaikan
+                        berkelanjutan.</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="value-letter">R</div>
+                    <h3><span class="gold">R</span>esponsibility</h3>
+                    <p>Tanggung jawab penuh terhadap tugas, tim, diri dan hasil kerja.</p>
+                </div>
+
+                <div class="value-card" data-aos="fade-up" data-aos-delay="450">
+                    <div class="value-letter">E</div>
+                    <h3><span class="gold">E</span>mpathy</h3>
+                    <p>Saling jaga, saling bantu, peduli pada sesama, pelanggan, dan rekan kerja.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Units Section -->
+    <section id="bisnis" class="business-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Unit Bisnis Kami</div>
+                <h2 class="section-title">
+                    Portofolio <span class="gold">Bisnis</span>
+                </h2>
+                <p class="section-description">
+                    Beragam unit bisnis yang melayani kebutuhan teknologi dan gaya hidup modern
+                </p>
+            </div>
+
+            <div class="business-grid">
+                <!-- Importir Laptop -->
+                <div class="business-card featured" data-aos="zoom-in">
+                    <div class="business-badge">Featured</div>
+                    <div class="business-icon">
+                        <img src="assets/images/logo/Logo IL (1).png" alt="Importir Laptop Logo"
+                            class="business-icon-img">
+                    </div>
+                    <h3>Importir Laptop</h3>
+                    <p class="business-tagline">Toko laptop peduli pelajar</p>
+                    <p class="business-description">
+                        Unit pertama ZIG dalam dunia laptop second-hand, fokus membantu pelajar dan mahasiswa
+                        mendapatkan laptop berkualitas.
+                    </p>
+                    <ul class="business-features">
+                        <li><span class="material-symbols-outlined">check_circle</span> Laptop Grade A++</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Harga Pelajar/Mahasiswa</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Cicilan 0%</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Service Center Resmi</li>
+                    </ul>
+                    <div class="business-locations">
+                        <span class="location-badge">Bandung</span>
+                        <span class="location-badge">Jogja</span>
+                    </div>
+                </div>
+
+                <!-- Republic Laptop -->
+                <div class="business-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="business-icon">
+                        <img src="assets/images/logo/Logo RL.png" alt="Republic Laptop Logo" class="business-icon-img">
+                    </div>
+                    <h3>Republic Laptop</h3>
+                    <p class="business-tagline">Merek nasionalis dengan misi edukatif</p>
+                    <p class="business-description">
+                        Mendukung visi konstitusi Indonesia dalam mencerdaskan kehidupan bangsa. Menyediakan laptop
+                        second-hand berkualitas dan terjangkau untuk semua kalangan.
+                    </p>
+                    <ul class="business-features">
+                        <li><span class="material-symbols-outlined">check_circle</span> Laptop berkualitas premium</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Harga terjangkau</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Garansi & after sales</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Program subsidi</li>
+                    </ul>
+                    <div class="business-locations">
+                        <span class="location-badge">Bandung</span>
+                        <span class="location-badge">Solo</span>
+                    </div>
+                </div>
+
+
+
+                <!-- ZBoard -->
+                <div class="business-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="business-icon">
+                        <img src="assets/images/logo/Zboard.png" alt="ZBoard Logo" class="business-icon-img">
+                    </div>
+                    <h3>ZBoard</h3>
+                    <p class="business-tagline">Project management digital</p>
+                    <p class="business-description">
+                        Tools digital untuk manajemen proyek dan produktivitas. Dirancang untuk efisiensi kerja tim dan
+                        pelacakan tugas.
+                    </p>
+                    <ul class="business-features">
+                        <li><span class="material-symbols-outlined">check_circle</span> Tim Collaboration</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Task Management</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Real-time Tracking</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Progress Reporting</li>
+                    </ul>
+                    <div class="business-line"></div>
+                </div>
+
+                <!-- CBT -->
+                <div class="business-card featured" data-aos="fade-up" data-aos-delay="300">
+                    <div class="business-icon">
+                        <img src="assets/images/logo/CBT.png" alt="CBT Logo" class="business-icon-img">
+                    </div>
+                    <h3>CERDAS BERSAMA TEKNOLOGI</h3>
+                    <p class="business-tagline">PENGADAAN LAPTOP B2B</p>
+                    <p class="business-description">
+                        Cerdas Bersama Teknologi merupakan salah satu anak perusahaan PT. Zabran Internasional Grup yang
+                        bergerak dalam bidang pengadaan laptop jangkauan B2B, jasa layanan service laptop hingga sewa
+                        laptop yang berkomitmen untuk membangun masa depan Indonesia melalui sinergi teknologi dan
+                        pengembangan edukasi.
+                    </p>
+                    <ul class="business-features">
+                        <li><span class="material-symbols-outlined">check_circle</span> Sekolah</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Perusahaan</li>
+                        <li><span class="material-symbols-outlined">check_circle</span> Intititusi lainnya</li>
+                    </ul>
+                    <div class="business-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="program" class="programs-section">
+        <div class="programs-background"></div>
+        <div class="container">
+            <div class="section-header light-header" data-aos="fade-up">
+                <div class="section-label light">Program Sosial</div>
+                <h2 class="section-title light">
+                    SEPENUH HATI <span class="gold">UNTUK NEGERI</span>
+                </h2>
+                <p class="section-description light">
+                    Program-program yang kami hadirkan untuk memberikan manfaat kepada masyarakat Indonesia
+                </p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-number">01</div>
+                    <div class="program-icon">
+                        <span class="material-symbols-outlined">laptop_mac</span>
+                    </div>
+                    <h4>SUBSIDI LAPTOP</h4>
+                    <p>Bantuan subsidi potongan harga laptop untuk kebutuhan pendidikan</p>
+                </div>
+
+                <div class="program-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="program-number">02</div>
+                    <div class="program-icon">
+                        <span class="material-symbols-outlined">psychology</span>
+                    </div>
+                    <h4>PELATIHAN LEADERSHIP</h4>
+                    <p>Workshop gratis untuk mengembangkan jiwa kepemimpinan</p>
+                </div>
+
+                <div class="program-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="program-number">03</div>
+                    <div class="program-icon">
+                        <span class="material-symbols-outlined">event</span>
+                    </div>
+                    <h4>SPONSORSHIP EVENT</h4>
+                    <p>Kerjasama untuk dukungan penyelenggaraan suatu event atau kegiatan</p>
+                </div>
+
+                <div class="program-item" data-aos="fade-up" data-aos-delay="250">
+                    <div class="program-number">04</div>
+                    <div class="program-icon">
+                        <span class="material-symbols-outlined">school</span>
+                    </div>
+                    <h4>PROGRAM INTERNSHIP</h4>
+                    <p>Menerima dan memberi kesempatan bagi siswa melakukan praktik kerja di perusahaan</p>
+                </div>
+
+                <div class="program-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="program-number">05</div>
+                    <div class="program-icon">
+                        <span class="material-symbols-outlined">volunteer_activism</span>
+                    </div>
+                    <h4>CORPORATE SOCIAL RESPONSIBILITY (CSR)</h4>
+                    <p>Memberikan kontribusi positif kepada masyarakat dan lingkungan</p>
+                </div>
+            </div>
+
+            <div class="cta-box" data-aos="zoom-in">
+                <h3>Ingin bergabung dengan program kami?</h3>
+                <a href="#kontak" class="btn btn-primary">
+                    More Info
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section id="berita" class="news-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Berita dan Event</div>
+                <h2 class="section-title">
+                    What's on <span class="gold">Zabran</span>
+                </h2>
+            </div>
+
+            <div class="news-grid" data-aos="fade-up">
+                <!-- Main Article -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="assets/images/artikel/6.jpeg" alt="Ramadhan Berkah dengan CSR ala Zabran">
+                        <div class="news-date">
+                            <span class="day">02</span>
+                            <span class="month">Feb</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">CSR & Sosial</div>
+                        <h3><a href="#">Ramadhan Berkah dengan CSR ala Zabran</a></h3>
+                        <p>Mengintip kegiatan berbagi kebahagiaan di bulan suci melalui program Corporate Social
+                            Responsibility yang rutin dilaksanakan oleh ZIG Team.</p>
+                        <a href="#" class="news-link">
+                            Baca Selengkapnya
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- More dummy articles can be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri" class="gallery-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Galeri Kami</div>
+                <h2 class="section-title">
+                    <span class="gold">Galeri</span>
+                </h2>
+            </div>
+
+            <div class="gallery-grid" data-aos="fade-up">
+                <div class="gallery-item">
+                    <img src="assets/images/galeri/1.jpeg" alt="Zabran Team 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="material-symbols-outlined">zoom_in</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/galeri/2.jpeg" alt="Zabran Team 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="material-symbols-outlined">zoom_in</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/galeri/3.jpeg" alt="Zabran Team 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="material-symbols-outlined">zoom_in</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/galeri/4.jpeg" alt="Zabran Team 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="material-symbols-outlined">zoom_in</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/galeri/5.jpeg" alt="Zabran Team 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="material-symbols-outlined">zoom_in</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/galeri/6.jpeg" alt="Zabran Team 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="material-symbols-outlined">zoom_in</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="section-label">Hubungi Kami</div>
+                    <h2 class="section-title">
+                        Mari Berdiskusi<br>
+                        <span class="gold">Bersama Kami</span>
+                    </h2>
+                    <p class="contact-text">
+                        Baik untuk pertanyaan produk, kemitraan bisnis, atau program sosial, tim kami siap membantu
+                        Anda.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-symbols-outlined">location_on</span>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Kantor Pusat</h4>
+                                <p>Jl. Perintis No 1 Sarijadi<br>Bandung, Jawa Barat</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-symbols-outlined">mail</span>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Email</h4>
+                                <p>pt.zabraninternasional@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-symbols-outlined">alternate_email</span>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Instagram & Tiktok</h4>
+                                <p>@zabran.group</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="founder-info">
+                        <div class="founder-avatar">
+                            <span class="material-symbols-outlined">account_circle</span>
+                        </div>
+                        <div class="founder-details">
+                            <h5>Bayu Aji</h5>
+                            <p>Owner, Founder & CEO</p>
+                            <p>PT Zabran Internasional Grup</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Nomor Telepon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="08xx xxxx xxxx">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Pilih Subjek</option>
+                                    <option value="product">Pertanyaan Produk</option>
+                                    <option value="partnership">Kemitraan Bisnis</option>
+                                    <option value="program">Program Sosial</option>
+                                    <option value="career">Karir</option>
+                                    <option value="other">Lainnya</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="instansiGroup" style="display: none;">
+                            <label for="instansi">Asal Instansi / Perusahaan</label>
+                            <input type="text" id="instansi" name="instansi" placeholder="Contoh: PT. Maju Bersama">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Kirim Pesan
+                            <span class="material-symbols-outlined">send</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo/logo.png" alt="Zabran International Grup" class="logo-image">
+                        <div class="logo-subtitle"></div>
+                    </div>
+                    <p class="footer-description">
+                        Empowering People Through Innovative Technology for Better Lifestyle. Kami hadir untuk
+                        memberdayakan masyarakat Indonesia melalui teknologi, pendidikan, dan program sosial yang
+                        berdampak.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/zabran.group" aria-label="Instagram"><span
+                                class="material-symbols-outlined">photo_camera</span></a>
+                        <a href="https://www.tiktok.com/@zabran.group" aria-label="Tiktok"><span
+                                class="material-symbols-outlined">video_library</span></a>
+                        <a href="http://www.zabrangrup.com" aria-label="Website"><span
+                                class="material-symbols-outlined">language</span></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Unit Bisnis</h4>
+                    <ul>
+                        <li><a href="#bisnis">Importir Laptop</a></li>
+                        <li><a href="#bisnis">Republic Laptop</a></li>
+                        <li><a href="#bisnis">ZBoard</a></li>
+                        <li><a href="#bisnis">Cerdas Bersama Teknologi</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Program</h4>
+                    <ul>
+                        <li><a href="#program">Subsidi Laptop</a></li>
+                        <li><a href="#program">Pelatihan Leadership</a></li>
+                        <li><a href="#program">Sponsorship Event</a></li>
+                        <li><a href="#program">Program Internship</a></li>
+                        <li><a href="#program">CSR</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#tentang">Visi & Misi</a></li>
+                        <li><a href="#tentang">Core Values</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 PT Zabran Internasional Grup. Semua Hak Dilindungi.</p>
+                <p class="footer-tagline">Authentic & Premium</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <span class="material-symbols-outlined">keyboard_arrow_up</span>
+    </button>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="gallery-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <script>
+        // Toggle Instansi Field based on Subject
+        const subjectSelect = document.getElementById('subject');
+        const instansiGroup = document.getElementById('instansiGroup');
+        const instansiInput = document.getElementById('instansi');
+
+        subjectSelect.addEventListener('change', function () {
+            if (this.value === 'partnership') {
+                instansiGroup.style.display = 'block';
+                instansiInput.setAttribute('required', 'true');
+            } else {
+                instansiGroup.style.display = 'none';
+                instansiInput.removeAttribute('required');
+                instansiInput.value = '';
+            }
+        });
+
+        // Form Handling with Dynamic WA Routing
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const instansi = document.getElementById('instansi').value;
+            const message = document.getElementById('message').value;
+
+            // WA Number Mapping
+            const waMapping = {
+                'product': '6287777220442',
+                'partnership': '6287776777300',
+                'program': '6288809481209',
+                'career': '6288809481209',
+                'other': '6288809481209' // Default/Other to existing temp number
+            };
+
+            const waNumber = waMapping[subject] || '6288809481209';
+            const subjectLabel = subjectSelect.options[subjectSelect.selectedIndex].text;
+
+            // Format message
+            // 💎 MINIMALIST TEXT FORMAT
+            let messageText =
+                `*KONTAK WEBSITE - ZABRAN GROUP*\n\n` +
+                `Halo PT Zabran Internasional Grup,\n\n` +
+                `Saya tertarik mengenai:\n` +
+                `*${subjectLabel}*\n\n` +
+                `Nama: ${name}\n`;
+
+            if (instansi) {
+                messageText += `Instansi: ${instansi}\n`;
+            }
+
+            messageText +=
+                `\n*PESAN:*\n` +
+                `${message}\n\n` +
+                `_Pesan ini dikirim secara otomatis melalui Website Resmi PT Zabran Internasional Grup._`;
+
+            // Standard URL encoding for all devices
+            const encodedMessage = encodeURIComponent(messageText);
+
+            // Redirect to WhatsApp
+            window.open(`https://wa.me/${waNumber}?text=${encodedMessage}`, '_blank');
+        });
+    </script>
+</body>
+
+</html>
